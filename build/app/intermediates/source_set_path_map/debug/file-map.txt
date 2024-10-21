@@ -1,0 +1,27 @@
+com.example.nabula.app-jetified-lifecycle-process-2.7.0-0 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/127b1015164c4c873d64e0da2c438ef2/transformed/jetified-lifecycle-process-2.7.0/res
+com.example.nabula.app-jetified-window-1.2.0-1 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/12d569e838dff247ba8ca645cea6d6ca/transformed/jetified-window-1.2.0/res
+com.example.nabula.app-jetified-core-ktx-1.13.1-2 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/18061f1ccd652cbc4e7e34aa47b63201/transformed/jetified-core-ktx-1.13.1/res
+com.example.nabula.app-fragment-1.7.1-3 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/19638ffd170a48fefcd64b3cd9023e50/transformed/fragment-1.7.1/res
+com.example.nabula.app-core-runtime-2.2.0-4 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/1b295b6ed03de3e21648ed403bdfce28/transformed/core-runtime-2.2.0/res
+com.example.nabula.app-jetified-window-java-1.2.0-5 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/2817015b1acba27d6a7274680ad6cf75/transformed/jetified-window-java-1.2.0/res
+com.example.nabula.app-lifecycle-viewmodel-2.7.0-6 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/2ce51902412e58c3eeb1bf179ae461ec/transformed/lifecycle-viewmodel-2.7.0/res
+com.example.nabula.app-jetified-core-1.0.0-7 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/4da56f7431cf9b5aba1d3a96104c883c/transformed/jetified-core-1.0.0/res
+com.example.nabula.app-jetified-savedstate-1.2.1-8 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/52e13894379577e28d1bd93a2fd8879f/transformed/jetified-savedstate-1.2.1/res
+com.example.nabula.app-jetified-activity-1.8.1-9 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/5ae103a03e67a1fd2cc630ef5f29a0f1/transformed/jetified-activity-1.8.1/res
+com.example.nabula.app-lifecycle-livedata-2.7.0-10 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/61d77dff820b6436a4b604454a661028/transformed/lifecycle-livedata-2.7.0/res
+com.example.nabula.app-lifecycle-livedata-core-2.7.0-11 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/6553f8fff281027bd2310b7174216cef/transformed/lifecycle-livedata-core-2.7.0/res
+com.example.nabula.app-jetified-annotation-experimental-1.4.0-12 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/8a41d47ec3f59442887595f0c975a2ca/transformed/jetified-annotation-experimental-1.4.0/res
+com.example.nabula.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-13 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/a1856e83ee7b8fff6905aba221f0723d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+com.example.nabula.app-jetified-lifecycle-livedata-core-ktx-2.7.0-14 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/b8ed5db0029f3269112211be87093c61/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+com.example.nabula.app-lifecycle-runtime-2.7.0-15 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/d96f1bd688cb153f3d5864dc98226bbe/transformed/lifecycle-runtime-2.7.0/res
+com.example.nabula.app-core-1.13.1-16 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/e4f2a80f241ab65aa45ba63e009d4e67/transformed/core-1.13.1/res
+com.example.nabula.app-jetified-tracing-1.2.0-17 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/fbe69345a306f7a98e85b1d1c882324a/transformed/jetified-tracing-1.2.0/res
+com.example.nabula.app-jetified-startup-runtime-1.1.1-18 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/fe3013e3fecbccd1d29a17a04a09046d/transformed/jetified-startup-runtime-1.1.1/res
+com.example.nabula.app-jetified-profileinstaller-1.3.1-19 /Users/radwanabirgmail.com/.gradle/caches/transforms-3/ff40ed819516ebd9e90526617bd64e51/transformed/jetified-profileinstaller-1.3.1/res
+com.example.nabula.app-debug-20 /Volumes/Redwan Abir/Flutter Projects/Nabula/Nabula/android/app/src/debug/res
+com.example.nabula.app-main-21 /Volumes/Redwan Abir/Flutter Projects/Nabula/Nabula/android/app/src/main/res
+com.example.nabula.app-pngs-22 /Volumes/Redwan Abir/Flutter Projects/Nabula/Nabula/build/app/generated/res/pngs/debug
+com.example.nabula.app-resValues-23 /Volumes/Redwan Abir/Flutter Projects/Nabula/Nabula/build/app/generated/res/resValues/debug
+com.example.nabula.app-packageDebugResources-24 /Volumes/Redwan Abir/Flutter Projects/Nabula/Nabula/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.nabula.app-packageDebugResources-25 /Volumes/Redwan Abir/Flutter Projects/Nabula/Nabula/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.nabula.app-merged_res-26 /Volumes/Redwan Abir/Flutter Projects/Nabula/Nabula/build/app/intermediates/merged_res/debug
