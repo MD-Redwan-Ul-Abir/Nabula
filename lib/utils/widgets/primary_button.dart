@@ -101,9 +101,10 @@ class PrimaryBtn extends StatelessWidget {
                   style: titleStyle ??
                       TextStyle(
                         color: titleColor ?? AppColors.white,
-                        fontSize: 18.sp,
+                        fontSize: 17.sp,
                         fontWeight: FontWeight.w500,
-                      ),
+                        // Apply GoogleFonts.inter() to the whole TextStyle
+                      ).merge(GoogleFonts.inter()),
                 ),
                 // if (iconImage != null) SizedBox(width: 10.w),
                 // if (iconImage != null)

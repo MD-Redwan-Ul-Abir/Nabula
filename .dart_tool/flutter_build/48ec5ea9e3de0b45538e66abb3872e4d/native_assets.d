@@ -1,0 +1,1 @@
+ /Volumes/Redwan\ Abir/Flutter\ Projects/Nabula/.dart_tool/flutter_build/48ec5ea9e3de0b45538e66abb3872e4d/native_assets.yaml: 
