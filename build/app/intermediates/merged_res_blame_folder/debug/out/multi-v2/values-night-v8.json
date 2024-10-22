@@ -4,7 +4,7 @@
             "outputFile": "com.example.nabula.app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Volumes/Redwan Abir/Flutter Projects/Nabula/Nabula/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/sifatullah/development/Projects/Nabula/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
