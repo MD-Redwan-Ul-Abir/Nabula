@@ -18,7 +18,7 @@ class GetStartedView extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(
-                height: 32.h,
+                height: 62.h,
               ),
               Text(
                 "NEBULA",
