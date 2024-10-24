@@ -136,7 +136,9 @@ class LoginView extends StatelessWidget {
                               fontWeight: FontWeight.w600,
                               color: AppColors.primaryColorStatic,
                               fontSize: 16,
-                              onPressed: () {})
+                              onPressed: () {
+                                Get.toNamed(Routes.signUp);
+                              })
                         ],
                       ),
                     ),
