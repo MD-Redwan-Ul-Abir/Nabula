@@ -2,6 +2,7 @@ import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:nabula/utils/app_colors.dart';
 
 class CustomTextField extends StatelessWidget {
@@ -13,6 +14,9 @@ class CustomTextField extends StatelessWidget {
   final dynamic prefixSvg;
   final List<DropdownMenuItem<String>>? dropDownItems;
   final Color? dropdownIconColor;
+  final Color? filledColor;
+  final Color? hintTextColor;
+  final filledstatus;
   const CustomTextField({
     super.key,
     required this.hintText,
@@ -23,6 +27,9 @@ class CustomTextField extends StatelessWidget {
     this.controller,
     this.prefixPadding,
     this.dropdownIconColor,
+    this.filledstatus,
+    this.filledColor,
+    this.hintTextColor,
   });
 
   @override
@@ -65,6 +72,7 @@ class CustomTextField extends StatelessWidget {
           )
         : TextFormField(
             controller: controller,
+
             // style: TextStyle(
             //     fontSize: 16.sp,
             //     fontFamily: AssetsClass.grotesk,
@@ -72,16 +80,36 @@ class CustomTextField extends StatelessWidget {
             //     color: ColorsManager.whiteColor),
             decoration: InputDecoration(
               constraints: BoxConstraints(
-                maxHeight: 40.h,
+                maxHeight: 50.h,
               ),
+              // Removes enabled border
+              enabledBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(6),
+                borderSide: BorderSide(
+                  color: Colors
+                      .transparent, // Transparent color for the enabled border
+                ),
+              ),
+              focusedBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(6),
+                borderSide: BorderSide(
+                  color: Colors
+                      .transparent, // Transparent color for the focused border
+                ),
+              ), // Removes focused border
+              filled: filledstatus,
+              fillColor: filledColor,
               // contentPadding: EdgeInsets.only(bottom: 16.sp),
               hintText: hintText,
-              // hintStyle: TextStyle(
-              //   fontSize: 16.sp,
-              //   color: hintColor ?? ColorsManager.whiteColor.withOpacity(0.5),
-              //   fontFamily: AssetsClass.grotesk,
-              //   fontWeight: FontWeight.w400,
-              // ),
+
+              hintStyle: GoogleFonts.workSans(
+                  fontSize: 16.sp,
+                  color: AppColors.primaryColorStatic.withOpacity(.5),
+                  fontWeight: FontWeight.w400),
+
+              border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                  borderSide: BorderSide(color: Colors.transparent)),
               prefixIcon: prefixSvg is String
                   ? Padding(
                       padding:
@@ -99,7 +127,7 @@ class CustomTextField extends StatelessWidget {
               suffixIcon: suffixSvg is String
                   ? Padding(
                       padding:
-                          EdgeInsets.all(10.sp), // Adjust padding as needed
+                          EdgeInsets.all(15.sp), // Adjust padding as needed
                       child: SvgPicture.asset(
                         suffixSvg,
                       ),
