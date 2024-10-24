@@ -18,7 +18,7 @@ class GetStartedView extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(
-                height: 32.h,
+                height: 62.h,
               ),
               Text(
                 "NEBULA",
@@ -67,7 +67,7 @@ class GetStartedView extends StatelessWidget {
                             Get.toNamed(Routes.login);
                           },
                           btnwidth: 168.w,
-                          height: 41.h,
+                          height: 38.h,
                           btnColor: AppColors.lightGreenColor,
                         ),
                         PrimaryBtn(
@@ -76,7 +76,7 @@ class GetStartedView extends StatelessWidget {
                             Get.toNamed(Routes.signUp);
                           },
                           btnwidth: 168.w,
-                          height: 41.h,
+                          height: 38.h,
                         ),
                       ],
                     ),

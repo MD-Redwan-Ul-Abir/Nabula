@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       child: GetMaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Nabula',
         theme: ThemeData(
           colorScheme:
